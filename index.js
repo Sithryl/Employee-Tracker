@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-const dbConnection = require("./connection");
+const dbConnection = require("./config/connection");
 
 function startPrompt() {
   inquirer
