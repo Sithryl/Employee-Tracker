@@ -1,5 +1,7 @@
 const inquirer = require("inquirer");
 const dbConnection = require("./config/connection");
+const mysql = require('mysql2');
+require('dotenv').config();
 
 function startPrompt() {
   inquirer
